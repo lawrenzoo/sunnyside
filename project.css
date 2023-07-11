@@ -1,0 +1,358 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+header{
+    /* border: 1px solid red; */
+    width: 100%;
+    height: 100vh;
+    background-image: url(./images/desktop/image-header.jpg);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 90%;
+    margin: 0 auto;
+    padding: 20px 0 0 0;
+}
+
+ul{
+    list-style: none;
+    display: flex;
+}
+
+ul>li{
+    padding: 15px;
+}
+li>a{
+    color: white;
+}
+
+ul>li:hover{
+    /* border: 1px solid white; */
+    border-radius: 10px;
+    padding: 15px;
+    background-color: white;
+}
+li>a:hover{
+    color: black;
+}
+
+.burger{
+    display: none;
+}
+.bigtext{
+    /* border: 1px solid black; */
+    text-align: center;
+}
+.bigtext>h1{
+    font-size: 50px;
+    color: white;
+    padding-top: 5%;
+}
+.arrow-down{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 5% 0 0 ;
+}
+
+.grid{
+    display:grid;
+    grid-template-columns: 50% 50%;
+}
+.box{
+    /* border: 2px solid green; */
+    min-height: 600px;
+}
+.box1,.box4{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.box h1{
+    text-align: center;
+}
+.text1 p{
+    text-align: center;
+    color: #8b8a8a;
+}
+.text2 p{
+    text-align: center;
+    color: #8b8a8a;
+}
+
+.box2{
+    background-image: url(./images/desktop/image-transform.jpg);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.box3{
+    background-image: url(./images/desktop/image-stand-out.jpg);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.box5{
+    background-image: url(./images/desktop/image-graphic-design.jpg);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.box6{
+    background-image: url(./images/desktop/image-photography.jpg);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.text1, .text2{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 60%;
+    gap: 30px;
+    
+}
+.text3, .text4{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 60%;
+    gap: 20px;
+}
+.text3 p{
+    text-align: center; 
+    color: #396057;
+}
+.text4 p{
+    text-align: center; 
+    color: #0872aa;
+}
+.box5, .box6{
+    display: flex;
+    justify-content:center ;
+    align-items: end;
+    padding-bottom: 40px;
+}
+.text3 h1{
+    color: #396057;
+}
+.text4 h1{
+    color: #0872aa;
+}
+
+.client-head{
+    display: flex;
+    justify-content:center;
+    align-items: center;
+    padding: 100px 0 10px 0;
+}
+.client-head>h2{
+    color: #8b8a8a;
+}
+.review{
+    display:grid;
+    grid-template-columns: 33.33% 33.33% 33.33%;
+}
+.contain{
+    min-height: 500px;
+
+}
+.content1, .content2, .content3{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 75%;
+    gap: 20px;
+}
+.emily{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.thomas{
+    display: flex;
+    flex-direction: column;
+    justify-content: center ;
+    align-items: center;
+}
+.jennie{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center; 
+}
+.emi-circle{
+    border-radius: 50%;
+    height: 80px;
+    width: 80px;
+    background-image: url(./images/image-emily.jpg);
+    background-position: center;
+    background-size: contain;
+}
+.thom-circle{
+    background-image: url(./images/image-thomas.jpg);
+    background-position: center;
+    background-size: contain;
+    border-radius: 50%;
+    height: 80px;
+    width: 80px;
+}
+.jen-circle{
+    background-image: url(./images/image-jennie.jpg);
+    background-position: center;
+    background-size: contain;
+    border-radius: 50%;
+    height: 80px;
+    width: 80px;
+}
+.contain p{
+    text-align: center;
+}
+.contain p{
+    color: #5b5656;
+}
+.contain .emi-work, .thom-work, .jen-work{
+    color: #a8a8a8;
+}
+
+
+.grid-sweet{
+    display: grid;
+    grid-template-columns: 25% 25% 25% 25%;
+}
+.group{
+    min-height: 500px;
+}
+
+.milk{
+    background-image: url(./images/desktop/image-gallery-milkbottles.jpg);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.orange{
+    background-image: url(./images/desktop/image-gallery-orange.jpg);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.cone{
+    background-image: url(./images/desktop/image-gallery-cone.jpg);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.sugar{
+    background-image: url(./images/desktop/image-gallery-sugarcubes.jpg);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+
+}
+
+footer{
+    height: 50vh;
+    background-color: #4fd6b8;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.end{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 50px;
+}
+.end> h1{
+    color: rgb(29, 106, 68);
+    font-size: 50px;
+}
+.click{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 30px;
+    color: rgb(29, 106, 68);
+
+}
+.socials{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 30px;
+}
+
+
+
+
+
+
+
+
+
+@media(max-width:550px){
+
+    header{
+        width: 100%;
+        height: 75vh;
+        background-image: url(./images/mobile/image-header.jpg);
+        background-position: center;
+        background-size: cover;
+        background-repeat: no-repeat;
+    }
+    ul{
+        display: none;
+    }
+    .burger{
+        display: block;
+    }
+    .grid{
+        grid-template-columns: 100%;
+    }
+    .box{
+        min-height: 400px;
+    }
+    .box2{
+        order: -1;
+    }
+    .box5, .box6{
+        min-height: 600px;
+    }
+    .client-head {
+        padding-top: 40px;
+    }
+    .review{
+        display:grid;
+        grid-template-columns: 100%;
+    }
+    .contain{
+        min-height: 350px;
+    }
+    .grid-sweet{
+        display: grid;
+        grid-template-columns: 100%;
+    }
+    .group{
+        min-height: 200px;
+    }
+    .grid-sweet{
+        display: grid;
+        grid-template-columns: 50% 50%;
+    }
+}
